@@ -5,6 +5,9 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import {Background} from "./components/Background";
 import Home from "./components/Home";
 import {homeObj1} from "./components/Home/data";
+import React from 'react'
+import Charts from "./components/Chart";
+
 
 function App() {
     return (
@@ -14,6 +17,7 @@ function App() {
               <Routes>
                   <Route path="" element ={<Home {...homeObj1}/>}/>
                   <Route path="/photos" element={<Photos/>}/>
+                  <Route path="/plot" element={<Charts/>}/>
               </Routes>
             </Router>
        </Background>

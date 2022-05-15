@@ -24,7 +24,7 @@ const Navbar = () => {
                            </NavLinks>
                        </NavItem>
                        <NavItem>
-                           <NavLinks to="/photos">Photos
+                           <NavLinks to="/plot">Plots
                            </NavLinks>
                        </NavItem>
                    </NavMenu>
